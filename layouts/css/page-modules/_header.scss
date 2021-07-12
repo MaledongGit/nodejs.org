@@ -40,6 +40,25 @@ header {
     padding: 12px;
   }
 
+  .edit-on-github {
+    @extend .lang-picker-toggler;
+    right: 50px;
+    bottom: 5px;
+    font-size: 15px;
+
+    a,
+    a:link,
+    a:active {
+      color: $light-gray2 !important;
+    }
+
+    a:hover {
+      background-color: transparent;
+      text-decoration: underline;
+      color: #0ff !important;
+    }
+  }
+
   .lang-picker {
     position: absolute;
     right: 0;
